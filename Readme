@@ -1,0 +1,20 @@
+I wanted to clear the air on this udeploy improvements. After seeing the collaborate comment, somehow it projected like I'm stealing her work or not having proper understanding.
+I don't know if I can explain all these things in call, so I chose to send this mail.
+Please read fully with patience.
+
+ Initially it was my idea to simplify this udeploy process. Not sure if anyone already had this idea.
+I created a Collab page and mail and share it to team, Hiran and Stanley for inputs. But then I didn't get any response.
+After sometime Sivagami was doing the checkout and back up improvement.
+By the time while reviewing it I told her why create multiple files for each region instead we can use one process
+For multiple regions that way we can save time and avoid error. Then I explained how this can be done by creating each region for uat, prod and cob.
+
+She said yes this is a good idea but we don't get recognition for these tasks, I said atleast it'll help developers and save time.
+Then after sometime while doing AWS, she started implementing this ,  without informing me or team. Hope she'd have informed you and Saravana. and I was very happy that she picked it, and gave inputs.
+Then she created envs and multiple new components and build on her own and after seeing the new builds I proactively went to Her and asked about that and gave tips to use the existing components.
+Then she left those components hanging there. She then created one process for all regions and then merged the utility process ,dp everything to one. That was her idea and she has really done a great work there.
+But I would say it's a minimal effort compared to frtb as she just cloned the existing process and added an additional flow to include the dp, utility components. But for frtb it really had different folder structure compared to risk and
+Lot of outdated process compared to risk, which I need to sync it with, which involves lot of challenges and  testing involved
+
+And 2 releases went, initially I thought she'd do for frtb also as I promptly told her to include frtb also from the initial phase itself. But she only did for risk regions and really not cared about frtb.
+ When I asked her why didn't include and she told like she doesn't know frtb process and I said it's the same as other regions, then she said she didn't have time for that.
+Then I proactively came to you for doing for frtb. It may looked easy
