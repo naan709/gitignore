@@ -1,9 +1,13 @@
-I wanted to clear the air on this udeploy improvements. After seeing the collaborate comment, somehow it projected like I'm stealing her work or not having proper understanding.
-I don't know if I can explain all these things in call, so I chose to send this mail.
+I wanted to clear the air on this udeploy improvements. After seeing the collaborate comment, somehow it projected like I'm stealing her work or we didn't understand better.
+I don't know if I can explain all these things in call, so I chose to send via this medium.
+I really want you to know what has happened and understand the situation completely.
+I thought of taking your this earlier, but stuck with crdl development.
+That's why this mail.
 Please read fully with patience.
 
- Initially it was my idea to simplify this udeploy process. Not sure if anyone already had this idea.
+Initially it was my idea to simplify this udeploy process. Not sure if anyone already had this idea.
 I created a Collab page and mail and share it to team, Hiran and Stanley for inputs. But then I didn't get any response.
+Not sure if you have seen my mails about the udeploy.
 After sometime Sivagami was doing the checkout and back up improvement.
 By the time while reviewing it I told her why create multiple files for each region instead we can use one process
 For multiple regions that way we can save time and avoid error. Then I explained how this can be done by creating each region for uat, prod and cob.
@@ -16,5 +20,30 @@ But I would say it's a minimal effort compared to frtb as she just cloned the ex
 Lot of outdated process compared to risk, which I need to sync it with, which involves lot of challenges and  testing involved
 
 And 2 releases went, initially I thought she'd do for frtb also as I promptly told her to include frtb also from the initial phase itself. But she only did for risk regions and really not cared about frtb.
- When I asked her why didn't include and she told like she doesn't know frtb process and I said it's the same as other regions, then she said she didn't have time for that.
-Then I proactively came to you for doing for frtb. It may looked easy
+When I asked her why didn't include and she told like she doesn't know frtb process and I said it's the same as other regions, then she said she didn't have time for that and won't get any recognition. 
+Then I proactively came to you for doing for frtb. 
+
+I had to make the scripts common for risk and frtb for stopping process, risk deployment,Db, dp deployment and all. I spent lot of nights thinking about how to make it common.
+
+Not just that, after speaking to you in a monthly call, we discussed about making the scripts stable.
+So I worked with team to get the common issues faced and I improved and optimised the stop and start scripts, dp deployment retry, and modified the flow to stop failing when we have db 
+and dp failures so that we can retry that alone and not the entire process.
+That improvement helped last release to complete the risk release quick and Phani had really seen the time improvement.
+
+And also I have done major improvements in frtb component deploy which also saves lot of time in build and deployment, but I did it without any jira and I haven't mentioned it anywhere. Just thought of doing good for the team.
+It may not be known to you as there was lot of hidden with that I have done. I tried to send some in mails, but that also left unnoticed.
+So this is to reiterate the things I have done for this.
+
+It may looked easy by just adding an extension for frtb, but only me and manickam knows lot of challenges we faced and he really helped with testing. once I done with changes during the night, he helps in the morning with the testing.
+
+I'm not expecting a big recognition or award, I just wanted you to understand my part in this from the start to end.
+
+I don't easily get demotivated, but I see two cases where people get demotivated. One instance was Durga which I already told you and other was Jayakumar which he got motivated by me for angular and then designed some pages for risk.
+But he'll definitely feel bad when we aren't progressing with that. Not just that he really doing lot of improvements to the team and I don't want to get unnoticed or un recognised.
+I'll always stay motivated and ill always try to keep improving the team. So I hope you can understand now.
+
+I have a request to you, lot of people in team have some idea in mind on how to improve something on what they are doing.
+Please create some forum like a collaborate page or whatsapp group to get those ideas and fine tune it and prioritise it and fix it in subsequent releases.
+Some may have an idea that even if they tell idea that'll not be valued or they might feel shy or bored to express it as it is not being valued.
+
+Thanks for reading this and sorry for making a big mail as I may forget points during the call.
